@@ -1,0 +1,22 @@
+li {
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  li:hover {
+    display: inline-block;
+    border: 1px black solid;
+    padding: 2px;
+  }
+  
+  .category-wrapper {
+    margin-left: 50px;
+    width: 20%;
+  }
+  
+  @media (max-width: 750px) {
+    .category-wrapper {
+      width: 50%;
+    }
+  }
+  
