@@ -35,8 +35,10 @@ function App() {
   return (
     <div className="wrapper">
       <div>Menu Categories</div>
-      <Category category={category} renderMenuList={renderMenuList} />
-      <MenuList menuList={menuList} query={query} />
+      <div className="content">
+        <Category category={category} renderMenuList={renderMenuList} />
+        <MenuList menuList={menuList} query={query} />
+      </div>
     </div>
   );
 }
